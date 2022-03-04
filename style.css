@@ -1,0 +1,150 @@
+*{
+  box-sizing: border-box;
+}
+h1 {
+  font-size: 35px;
+  padding-top: 280px;
+}
+h1:first-line{
+  font-size: 25px;
+  
+}
+header{
+  background-image: url(https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 400px;
+   text-align: center;
+}
+
+div{
+  margin: 0 200px;
+}
+blockquote p, header{
+  font-family: 'Abril Fatface', cursive;
+}
+p{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+h4{
+  font-family: 'Merriweather', serif;
+}
+span { 
+  font-weight: bold;
+}
+ul{
+  list-style-type: square;
+}
+blockquote p{
+  background-color: grey;
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  height: 120px;
+  text-align: center;
+  padding: 25px;
+  
+}
+blockquote::before {
+  content: '”';
+  font-size: 50px;
+  height: 50px;
+  position: absolute;
+  color: white;
+}
+.footer{
+  margin: 50px 200px;
+  padding: 30px 0;
+  border-top: 3px solid black;
+}
+
+/*#comment {
+  background-color: transparent;
+  width: 50px;
+  height: 50px;
+  box-shadow: 0px 0px 7px 2px grey;
+  border-radius: 50px;
+  color: black;
+  font-size: 25px;
+  text-align: left;
+  
+  position: fixed;
+  bottom: 10px;
+  right: 200px;
+}
+#comment>img{
+  color: black;
+  width: 25px;
+  position: relative;
+  justify-content: left;
+  
+  
+}
+#search {
+  background-color: transparent;
+  width: 50px;
+  height: 50px;
+  box-shadow: 0px 0px 7px 2px grey;
+  border-radius: 50%;
+  color: black;
+  font-size: 25px;
+  text-align: center;
+  
+  position: fixed;
+  bottom: 10px;
+  right: 130px;
+}
+#search>img{
+  color: black;
+  width: 25px;
+  position: fixed;
+  bottom: 21px;
+  right: 140px; 
+}
+#inspect {
+  background-color: transparent;
+  width: 50px;
+  height: 50px;
+  box-shadow: 0px 0px 7px 2px grey;
+  border-radius: 50%;
+  color: black;
+  font-size: 25px;
+  text-align: center;
+  
+  position: fixed;
+  bottom: 10px;
+  right: 60px;
+}
+#inspect>img{
+  color: black;
+  width: 25px;
+  position: fixed;
+  bottom: 30px;
+  right: 71px; 
+}
+#screens {
+  background-color: transparent;
+  width: 50px;
+  height: 50px;
+  box-shadow: 0px 0px 7px 2px grey;
+  border-radius: 50%;
+  color: black;
+  font-size: 25px;
+  text-align: center;
+  
+  position: fixed;
+  bottom: 10px;
+  right: 0;
+}
+#screens>img{
+  color: black;
+  width: 25px;
+  position: fixed;
+  bottom: 25px;
+  right: 12px; 
+}
+#comment:hover{
+  width: 150px;
+  margin: 0;
+}*/
